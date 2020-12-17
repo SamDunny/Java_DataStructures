@@ -1,0 +1,168 @@
+Lab 04
+
+Sum All Combinations
+
+ 
+
+Objective / Requirements:
+
+ 
+
+Write a program that recursively prints the sum of all combinations of 5 randomly selected integers. Single values are also included in the print out. For example if the array had the following values {1,2,3,4,5}, then the it will print:
+
+ 
+
+1 = 1
+
+1 + 2 = 3
+
+1 + 2 + 3 = 6
+
+1 + 2 + 3 + 4 = 10
+
+1 + 2 + 3 + 4 + 5 = 15
+
+1 + 2 + 3 + 5 = 11
+
+1 + 2 + 4 = 7
+
+1 + 2 + 4 + 5 = 12
+
+1 + 2 + 5 = 8
+
+1 + 3 = 4
+
+1 + 3 + 4 = 8
+
+1 + 3 + 4 + 5 = 13
+
+1 + 3 + 5 = 9
+
+1 + 4 = 5
+
+1 + 4 + 5 = 10
+
+1 + 5 = 6
+
+2 = 2
+
+2 + 3 = 5
+
+2 + 3 + 4 = 9
+
+2 + 3 + 4 + 5 = 14
+
+2 + 3 + 5 = 10
+
+2 + 4 = 6
+
+2 + 4 + 5 = 11
+
+2 + 5 = 7
+
+3 = 3
+
+3 + 4 = 7
+
+3 + 4 + 5 = 12
+
+3 + 5 = 8
+
+4 = 4
+
+4 + 5 = 9
+
+5 = 5
+
+ 
+
+ 
+
+Hints:
+
+Recursive methods generally attempt to solve a smaller problem then return the results of those in order to solve the larger one.
+Using an additional array to keep track of the current combination may help
+Backtracking by using the stack property of recursion will help greatly.
+ 
+
+Example Dialog:
+
+ 
+
+Welcome to the sum of all combinations program!
+
+Given array = {15 50 74 88 91}, all summed combinations are:
+
+15 = 15
+
+15 + 50 = 65
+
+15 + 50 + 74 = 139
+
+15 + 50 + 74 + 88 = 227
+
+15 + 50 + 74 + 88 + 91 = 318
+
+15 + 50 + 74 + 91 = 230
+
+15 + 50 + 88 = 153
+
+15 + 50 + 88 + 91 = 244
+
+15 + 50 + 91 = 156
+
+15 + 74 = 89
+
+15 + 74 + 88 = 177
+
+15 + 74 + 88 + 91 = 268
+
+15 + 74 + 91 = 180
+
+15 + 88 = 103
+
+15 + 88 + 91 = 194
+
+15 + 91 = 106
+
+50 = 50
+
+50 + 74 = 124
+
+50 + 74 + 88 = 212
+
+50 + 74 + 88 + 91 = 303
+
+50 + 74 + 91 = 215
+
+50 + 88 = 138
+
+50 + 88 + 91 = 229
+
+50 + 91 = 141
+
+74 = 74
+
+74 + 88 = 162
+
+74 + 88 + 91 = 253
+
+74 + 91 = 165
+
+88 = 88
+
+88 + 91 = 179
+
+91 = 91
+
+Lab Report Questions:
+
+Describe the similarities between using recursion versus iteration.
+Describe the difference between using recursion versus iteration.
+ 
+
+ 
+
+Finally:
+
+Upload the .java file to the dropbox
