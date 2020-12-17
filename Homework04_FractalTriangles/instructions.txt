@@ -1,0 +1,43 @@
+Homework 04
+
+Triangles! Oh Fractals!
+
+Due 10/23/2020 at 11:55PM
+
+ 
+
+Objective: 
+
+Write a program in which it draws a triangular fractal using recursion, and Java Swing. 
+
+ 
+
+Suggested Methodology
+
+The idea for it is this
+
+First draw a filled equilateral triangle
+Next draw another filled equilateral triangle of a different color that’s upside down in the middle of that triangle
+Using the other triangles formed repeat step 2 until a pixel limit of 4 is reached
+ 
+
+
+
+HINTS: 
+
+JFrame and Canvas are two types that may help.
+The method fillPolygon(int[] xPoints, int[] yPoint, numberOfPoints) as called by the graphics device is important
+The method setColor(Color aColor) is important for picking different colors to draw things.
+ 
+
+ 
+
+Example Image of Results:
+
+ 
+
+
+
+ 
+
+Submit the files to the drop box (https://dropbox.cse.sc.edu)
