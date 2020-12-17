@@ -1,0 +1,153 @@
+Lab 02
+
+Double Linked List
+
+ 
+
+Objective:
+
+ 
+
+Write a class called GenDoubleLinkedList which is a generic double linked list.  This link list is similar to the single linked list that was shown in class except that each node in addition to having data and nextLink (which was originally called link) now has prevLink.  Download the driver (DO NOT MODIFY THE DRIVER!) and write the following classes:
+
+ 
+
+
+
+ 
+
+The class GenDoubleLinkedList needs to have the following:
+
+Internal class ListNode which has
+Instance Variables
+data of type T
+nextLink of type ListNode
+prevLink of type ListNode
+Constructors
+Default
+Parameterized
+Instance Variables
+head of type ListNode which always points to the beginning of the linked list
+current of type ListNode which moves around pointing to one of the nodes
+Constructor
+A default constructor that initializes head to an empty ListNode and sets current to point at the head.
+Methods
+gotoNext – This moves the current node forward in the list by one node.  It doesn’t move forward if that node is null
+gotoPrev – This moves the current node backwards in the list by one node.  It doesn’t move backwards if that node is null.
+hasMore - This method returns true or false if the current node is null.
+reset – This method sets the current to point back to the head.
+getCurrent – returns the data at the current node as long as the current isn’t null
+setCurrent – takes in a parameter and sets the data at the current node to that value as long as current is not null
+add – creates a new node based on the data that is passed in by a parameter and adds a new node to the end of the list.
+addAfterCurrent – creates a new node based on data that is passed in by a parameter and puts that node after the current position. If the current node is null then do not add a new value.
+removeCurrent – removes the current node from the list by resetting the links
+print – prints out the contents of the list line-by-line
+contains – returns a true or false value based on whether or not the data passed in via a parameter is in the list
+ 
+
+ 
+
+Add Node After Current
+
+
+
+Remove Current Node
+
+
+
+Example Dialog:
+
+ 
+
+------------------------------------------------------
+
+Double Linked List Tester
+
+------------------------------------------------------
+
+ 
+
+------------------------------------------------------
+
+Inserting and Contains Test
+
+------------------------------------------------------
+
+ 
+
+SUCCESS: true
+
+ 
+
+------------------------------------------------------
+
+Removing Test
+
+Removing first item, third item, and last item
+
+------------------------------------------------------
+
+ 
+
+SUCCESS: true
+
+ 
+
+------------------------------------------------------
+
+Modified Values Test
+
+Changing all even values to negative values
+
+------------------------------------------------------
+
+ 
+
+SUCCESS: true
+
+ 
+
+------------------------------------------------------
+
+Printing the list
+
+------------------------------------------------------
+
+ 
+
+1
+
+3
+
+-4
+
+5
+
+-6
+
+7
+
+-8
+
+ 
+
+Solutions Tests:
+
+Is your name written as a comment in all source files?
+Does the solution compile (No Syntax Errors)?
+Do all the tests work with the provided code?
+a.      Insert and Contains Test?
+
+b.     Delete Test?
+
+c.      Modifying Values Test?
+
+ 
+
+Lab Report Questions:
+
+If the reference to an object is lost and thus the object is now unreachable, what does the Java Virtual Machine (JVM) do with said object?
+What are some advantages and disadvantages of using a doubly linked list versus a singly linked list.
+Finally:
+
+Upload the .java file to the CSCE Dropbox
