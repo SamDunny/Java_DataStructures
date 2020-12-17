@@ -1,0 +1,77 @@
+Lab 05
+
+SORT Sort
+
+ 
+
+Objective:
+
+ 
+
+I really like the word SORT! SORT SORT SORT SORT!  All SORTS of SORTS! Anyways, I like it so much that I want you to write a program to analyze some strings inputted from the user, count the number of times SORT (case doesn’t matter) appears in each string, then sort them from least number of SORT’s to most number of SORT’s!
+
+ 
+
+Requirements:
+
+ 
+
+User should input the Strings to be counted and sorted
+The user may enter up to 10 lines.
+Scan each string count the number of SORT’s that appear
+It may be a good idea to make a structure with the word and the number of SORT’s
+Sort the strings by the number of SORT’s from least to most
+In case of a tie its which ever appears first
+You can use either merge sort or quick sort
+Finally print out strings in SORT SORTED order.
+ 
+
+Example:
+
+Enter any number of strings and I will sort by SORT’s.  Once you’re done entering sentences enter “quit”.
+
+ 
+
+Sort
+
+asdf
+
+asdfsort
+
+asdfasdfsortSortSORTsort
+
+sortsortsortsortSORTSORTSORTSORT
+
+qwertqwertqwertqwertsortSORT
+
+sortzilla
+
+quit
+
+sort SORTED!
+
+asdf
+
+Sort
+
+asdfsort
+
+sortzilla
+
+qwertqwertqwertqwertsortSORT
+
+asdfasdfsortSortSORTsort
+
+sortsortsortsortSORTSORTSORTSORT
+
+ 
+
+Lab Report Questions:
+
+What is the Big O complexity for quick sort?
+What is the Big O complexity for merge sort?
+ 
+
+Finally:
+
+Upload the .java file to the CSCE Dropbox
