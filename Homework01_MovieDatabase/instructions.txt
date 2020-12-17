@@ -1,0 +1,217 @@
+Homework 01
+
+Movie Database
+
+Due 09/25/2020 at 11:55PM
+
+ 
+
+Objective:
+
+ 
+
+Write a program that manages a Movie Database. The user should be able to add, remove, and search the database. Along with being able to print and read from a database file.
+
+ 
+
+Requirements:
+
+Make a class GenLL which has the following:
+An internal class of list nodes that hold a generic type and link
+A head node for the start of the list
+A current which iterates through the list
+A previous node which is always one behind the current.
+Functionality that
+Adds a new item of a generic type
+Remove a given item from the list (via parameter)
+Return true or false if a given item (via parameter) is found in the list.
+Returns the value of where the current iterator is located. If the iterator is at the end of the list it should return null.
+Move the current iterator forward
+Move the iterator to the head node
+Remove an item at the iterator’s current position
+Prints the list to the console
+Make a class MovieDatabase which will have a generic linked list (GenLL) of Strings (representing the movie’s title) and the following functionality
+Add a Movie
+Remove a movie by Title
+Search the movie by Title. Returns true if it is found.
+Print out all the movies to the console
+Make a class MovieDatabaseFrontEnd which is front end that will allow a user to use any of the features noted in the database description. For instance, it may look like:
+Enter 1: to Add a Movie
+Enter 2: to Remove a Movie by Title
+Enter 3: to Search for Movies by Title
+Enter 4: to Print All Movies
+Enter 9: to Quit
+Other notes
+You MAY NOT use any built-in java linked structures, such as LinkedList, ArrayList, etc. The point of this is to implement these structures and use them.
+If you want a CHALLENGE try to print the information to a file and also read it back in!
+ 
+
+Example Dialog:
+
+ 
+
+Welcome to the Movie Database!
+
+Enter 1: to Add a Movie
+
+Enter 2: to Remove a Movie by Title
+
+Enter 3: to Search for Movies by Title
+
+Enter 4: to Print All Movies
+
+Enter 9: to Quit
+
+1
+
+Enter the movie's name
+
+The 2D Array
+
+Enter 1: to Add a Movie
+
+Enter 2: to Remove a Movie by Title
+
+Enter 3: to Search for Movies by Title
+
+Enter 4: to Print All Movies
+
+Enter 9: to Quit
+
+4
+
+The 2D Array
+
+Enter 1: to Add a Movie
+
+Enter 2: to Remove a Movie by Title
+
+Enter 3: to Search for Movies by Title
+
+Enter 4: to Print All Movies
+
+Enter 9: to Quit
+
+1
+
+Enter the movie's name
+
+The #00FF00 Mile
+
+Enter 1: to Add a Movie
+
+Enter 2: to Remove a Movie by Title
+
+Enter 3: to Search for Movies by Title
+
+Enter 4: to Print All Movies
+
+Enter 9: to Quit
+
+4
+
+The 2D Array
+
+The #00FF00 Mile
+
+Enter 1: to Add a Movie
+
+Enter 2: to Remove a Movie by Title
+
+Enter 3: to Search for Movies by Title
+
+Enter 4: to Print All Movies
+
+Enter 9: to Quit
+
+1
+
+Enter the movie's name
+
+The Great Linked Structure Robbery
+
+Enter 1: to Add a Movie
+
+Enter 2: to Remove a Movie by Title
+
+Enter 3: to Search for Movies by Title
+
+Enter 4: to Print All Movies
+
+Enter 9: to Quit
+
+4
+
+The 2D Array
+
+The #00FF00 Mile
+
+The Great Linked Structure Robbery
+
+Enter 1: to Add a Movie
+
+Enter 2: to Remove a Movie by Title
+
+Enter 3: to Search for Movies by Title
+
+Enter 4: to Print All Movies
+
+Enter 9: to Quit
+
+2
+
+Enter the movie's name to remove
+
+The 2D Array
+
+Enter 1: to Add a Movie
+
+Enter 2: to Remove a Movie by Title
+
+Enter 3: to Search for Movies by Title
+
+Enter 4: to Print All Movies
+
+Enter 9: to Quit
+
+4
+
+The #00FF00 Mile
+
+The Great Linked Structure Robbery
+
+Enter 1: to Add a Movie
+
+Enter 2: to Remove a Movie by Title
+
+Enter 3: to Search for Movies by Title
+
+Enter 4: to Print All Movies
+
+Enter 9: to Quit
+
+7
+
+Invalid Input
+
+Enter 1: to Add a Movie
+
+Enter 2: to Remove a Movie by Title
+
+Enter 3: to Search for Movies by Title
+
+Enter 4: to Print All Movies
+
+Enter 9: to Quit
+
+9
+
+Goodbye!
+
+Finally:
+
+Upload the .java files to the CSCE Dropbox
+
+ 
+
+ 
