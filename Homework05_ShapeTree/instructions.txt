@@ -1,0 +1,262 @@
+Homework 05
+
+Due 10/30/2020 at 11:55PM
+
+Shape Tree
+
+ 
+
+Objective: 
+
+Write a program which creates a binary search tree of different shapes from a file.
+
+ 
+
+Requirements:
+
+·     The comparison is based on the shape’s area
+
+·     There are 3 shapes
+
+o  Rectangle
+
+o  Circle
+
+o  Right Triangle
+
+·     The file is tab delimited format goes as follows
+
+o  Rectangle \t <<side 1>> \t <<side 2>> \n
+
+o  Circle \t <<radius>> \n
+
+o  Right Triangle \t <<base>> \t <<height>> \n
+
+·     The binary search tree needs to have the following methods
+
+o  add: inserts a new shape into the tree
+
+o  remove: deletes the shape instance.  Keep in mind that in order for a shape to be equal it must have the same same type and area, but the sides can be interchangeable.
+
+o  print pre-order traversal: Print the data.  Next explore the left subtree.  Finally, right explore subtree.
+
+o  print in-order traversal:  Explore the left subtree. Print the data.  Finally, explore the right subtree.
+
+o  print post-order traversal:  Explore the left subtree. Then explore the right subtree.  Finally, print out the data.
+
+o  max area: return the maximum area in the tree.  Use the properties of the tree to make it efficient.
+
+o  delete areas greater than value: For a given value all shapes with an area that’s strictly greater than those values should be deleted.  Use the principle of a binary search tree to help make it efficient.
+
+·     Finally write a test file that demonstrates THE POWER OF TREES!!! SHAPES!!! By reading a shape file.
+
+ 
+
+HINTS: 
+
+Inheritance and polymorphism makes this problem not so difficult, so interfaces and base classes are a good idea.
+Yes, there will be many different class files.
+Recursion is your friend.
+ 
+
+ 
+
+Example of Results:
+
+ 
+
+Welcome to the shape tree tester!
+
+Reading from file
+
+ 
+
+Rectangle    5   4
+
+Circle   4  
+
+Right Triangle   3   2
+
+Rectangle    2   7
+
+Circle   8  
+
+Right Triangle   5   6
+
+Rectangle    9   2
+
+Circle   2  
+
+Rectangle    5   5
+
+Right Triangle   9   9
+
+Circle   7  
+
+Not properly formatted line. Yes you should check for these.  Not intentionally causing a kerfuffle
+
+Rectangle    3   8
+
+Circle   9  
+
+Right Triangle   2   2
+
+ 
+
+Printing pre-order
+
+Rectangle Side 1: 5.0 Side 2: 4.0 Area: 20.0
+
+Right Triangle Side 1: 3.0 Side 2: 2.0 Area: 3.0
+
+Right Triangle Side 1: 2.0 Side 2: 2.0 Area: 2.0
+
+Rectangle Side 1: 2.0 Side 2: 7.0 Area: 14.0
+
+Circle Radius: 2.0 Area: 12.566370614359172
+
+Right Triangle Side 1: 5.0 Side 2: 6.0 Area: 15.0
+
+Rectangle Side 1: 9.0 Side 2: 2.0 Area: 18.0
+
+Circle Radius: 4.0 Area: 50.26548245743669
+
+Rectangle Side 1: 5.0 Side 2: 5.0 Area: 25.0
+
+Rectangle Side 1: 3.0 Side 2: 8.0 Area: 24.0
+
+Right Triangle Side 1: 9.0 Side 2: 9.0 Area: 40.5
+
+Circle Radius: 8.0 Area: 201.06192982974676
+
+Circle Radius: 7.0 Area: 153.93804002589985
+
+Circle Radius: 9.0 Area: 254.46900494077323
+
+ 
+
+Printing in-order
+
+Right Triangle Side 1: 2.0 Side 2: 2.0 Area: 2.0
+
+Right Triangle Side 1: 3.0 Side 2: 2.0 Area: 3.0
+
+Circle Radius: 2.0 Area: 12.566370614359172
+
+Rectangle Side 1: 2.0 Side 2: 7.0 Area: 14.0
+
+Right Triangle Side 1: 5.0 Side 2: 6.0 Area: 15.0
+
+Rectangle Side 1: 9.0 Side 2: 2.0 Area: 18.0
+
+Rectangle Side 1: 5.0 Side 2: 4.0 Area: 20.0
+
+Rectangle Side 1: 3.0 Side 2: 8.0 Area: 24.0
+
+Rectangle Side 1: 5.0 Side 2: 5.0 Area: 25.0
+
+Right Triangle Side 1: 9.0 Side 2: 9.0 Area: 40.5
+
+Circle Radius: 4.0 Area: 50.26548245743669
+
+Circle Radius: 7.0 Area: 153.93804002589985
+
+Circle Radius: 8.0 Area: 201.06192982974676
+
+Circle Radius: 9.0 Area: 254.46900494077323
+
+ 
+
+Printing post-order
+
+Right Triangle Side 1: 2.0 Side 2: 2.0 Area: 2.0
+
+Circle Radius: 2.0 Area: 12.566370614359172
+
+Rectangle Side 1: 9.0 Side 2: 2.0 Area: 18.0
+
+Right Triangle Side 1: 5.0 Side 2: 6.0 Area: 15.0
+
+Rectangle Side 1: 2.0 Side 2: 7.0 Area: 14.0
+
+Right Triangle Side 1: 3.0 Side 2: 2.0 Area: 3.0
+
+Rectangle Side 1: 3.0 Side 2: 8.0 Area: 24.0
+
+Right Triangle Side 1: 9.0 Side 2: 9.0 Area: 40.5
+
+Rectangle Side 1: 5.0 Side 2: 5.0 Area: 25.0
+
+Circle Radius: 7.0 Area: 153.93804002589985
+
+Circle Radius: 9.0 Area: 254.46900494077323
+
+Circle Radius: 8.0 Area: 201.06192982974676
+
+Circle Radius: 4.0 Area: 50.26548245743669
+
+Rectangle Side 1: 5.0 Side 2: 4.0 Area: 20.0
+
+ 
+
+The max area is: 254.46900494077323
+
+ 
+
+Deleting Rectangle Side 1: 2.0 Side 2: 7.0 Area: 14.0
+
+Printing in-order
+
+Right Triangle Side 1: 2.0 Side 2: 2.0 Area: 2.0
+
+Right Triangle Side 1: 3.0 Side 2: 2.0 Area: 3.0
+
+Circle Radius: 2.0 Area: 12.566370614359172
+
+Right Triangle Side 1: 5.0 Side 2: 6.0 Area: 15.0
+
+Rectangle Side 1: 9.0 Side 2: 2.0 Area: 18.0
+
+Rectangle Side 1: 5.0 Side 2: 4.0 Area: 20.0
+
+Rectangle Side 1: 3.0 Side 2: 8.0 Area: 24.0
+
+Rectangle Side 1: 5.0 Side 2: 5.0 Area: 25.0
+
+Right Triangle Side 1: 9.0 Side 2: 9.0 Area: 40.5
+
+Circle Radius: 4.0 Area: 50.26548245743669
+
+Circle Radius: 7.0 Area: 153.93804002589985
+
+Circle Radius: 8.0 Area: 201.06192982974676
+
+Circle Radius: 9.0 Area: 254.46900494077323
+
+ 
+
+Deleting values larger than 30
+
+Printing in order
+
+Right Triangle Side 1: 2.0 Side 2: 2.0 Area: 2.0
+
+Right Triangle Side 1: 3.0 Side 2: 2.0 Area: 3.0
+
+Circle Radius: 2.0 Area: 12.566370614359172
+
+Right Triangle Side 1: 5.0 Side 2: 6.0 Area: 15.0
+
+Rectangle Side 1: 9.0 Side 2: 2.0 Area: 18.0
+
+Rectangle Side 1: 5.0 Side 2: 4.0 Area: 20.0
+
+Rectangle Side 1: 3.0 Side 2: 8.0 Area: 24.0
+
+Rectangle Side 1: 5.0 Side 2: 5.0 Area: 25.0
+
+ 
+
+Finally:
+
+Submit the files to the CSCE Dropbox (https://dropbox.cse.sc.edu)
