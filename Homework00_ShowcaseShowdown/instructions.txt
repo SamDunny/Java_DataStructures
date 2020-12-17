@@ -1,0 +1,134 @@
+Homework 00
+
+Due 09/18/2020 at 11:55pm
+
+Showcase Showdown!
+
+ 
+
+Objective: 
+
+Write a program which emulates the final game of a famous price related game show. 
+
+ 
+
+Requirements:
+
+ 
+
+The program must read from the given file prizeList.txt and populate an array of at least 50 prizes. 
+Must only use an array and may not use other data structures like “Array Lists”, etc.
+Each item has an associate name and price, and separated by an end line (‘\n’) 
+The name and price are separated by a tab (‘\t’).
+File format
+<<Prize Name>>\t<<Price>>\n
+…
+
+Items that are not correctly formatted need to be ignored (HINT: There’s at least one item in the file that is not formatted correctly). All other items should be added to the array.
+The program must then randomly pick 5 items out of that array for the showcase showdown, in which repeated items are allowed. 
+Then, the program must prompt the user with the names (individual prices hidden) of the prizes that have been randomly selected and ask them to enter the total cost closest without going over. 
+Since there is not another contestant in this version of the game, the program must also check to see if the price guessed is within $2,000 of the actual retail price or else they lose as well. 
+The game continues until the user chooses to quit.
+ 
+
+Suggested Methodology
+
+You can solve this in any number of ways, and here’s a way you may take to approach this problem.
+
+3 Classes
+Prize: This is a simple class which holds a single item from the list provided.  As such it has two instance variables price and name, and also all the accessors, mutators, and constructors associated with it.
+Showcase:  A more complex class which holds the arrays for the entire prize list and the randomly prize array that is the showcase.  Each array uses the type Prize.  This class must populate the entire prize array upon its construction from the file.  Also the file contains each prize name and cost separated by a tab.  A method for populating the showcase by randomly selecting items from the prize list is strongly recommended.
+ShowcaseGame:  This is the entire front end of the game.  All of the users input and the prompts should go in this class which contains nothing more than a main method.
+Example Dialog:
+
+ 
+
+Welcome to the showcase show down!
+
+Your prizes are:
+
+milk
+
+bread
+
+car
+
+car
+
+car
+
+You must guess the total cost of all without going over
+
+Enter your guess
+
+60000
+
+You guessed 60000.0 the actual price is 60012.0
+
+Your guess was under!  You win!
+
+Would you like to play again? Enter 'no' to quit
+
+yes
+
+Welcome to the showcase show down!
+
+Your prizes are:
+
+moose
+
+boat
+
+bread
+
+bread
+
+bread
+
+You must guess the total cost of all without going over
+
+Enter your guess
+
+40000
+
+You guessed 40000.0 the actual price is 51021.0
+
+I'm sorry but that guess was bad.  You lose for being bad.
+
+Would you like to play again? Enter 'no' to quit
+
+yes
+
+Welcome to the showcase show down!
+
+Your prizes are:
+
+milk
+
+moose
+
+cheese
+
+cheese
+
+boat
+
+You must guess the total cost of all without going over
+
+Enter your guess
+
+200000
+
+You guessed 200000.0 the actual price is 51015.0
+
+I'm sorry but that was over... You get nothing
+
+Would you like to play again? Enter 'no' to quit
+
+no
+
+Goodbye
+
+ 
+
+Submit the files to the CSCE Dropbox (https://dropbox.cse.sc.edu)
