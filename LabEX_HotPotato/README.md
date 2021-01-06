@@ -1,6 +1,6 @@
 LinkedListQueue contains the following functionality:  
-1) enqueue  
-2) dequeue  
-3) peek  
-4) print  
-5) size
+1. enqueue  
+1. dequeue  
+1. peek  
+1. print  
+1. size
