@@ -1,3 +1,5 @@
+package Lab04_SumAllCombinations;
+
 // by Sam Dunny
 
 import java.util.*;

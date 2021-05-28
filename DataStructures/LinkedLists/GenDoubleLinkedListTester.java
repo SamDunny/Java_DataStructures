@@ -1,3 +1,5 @@
+package DataStructures.LinkedLists;
+
 /*
  * Written by JJ Shepherd
  */

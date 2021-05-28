@@ -1,3 +1,5 @@
+package DataStructures.Stacks;
+
 // by Sam Dunny
 
 /* 	(1) interfaces cannot be constructed or instantiated,

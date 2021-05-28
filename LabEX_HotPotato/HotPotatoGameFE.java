@@ -1,3 +1,5 @@
+package LabEX_HotPotato;
+
 // by Sam Dunny
 
 import java.util.Scanner;

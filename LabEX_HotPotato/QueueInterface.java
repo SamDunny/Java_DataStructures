@@ -1,3 +1,5 @@
+package LabEX_HotPotato;
+
 // by Sam Dunny
 
 /* 	(1) interfaces cannot be constructed or instantiated,

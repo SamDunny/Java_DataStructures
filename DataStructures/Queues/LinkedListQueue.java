@@ -1,3 +1,5 @@
+package DataStructures.Queues;
+
 // by Sam Dunny
 
 public class LinkedListQueue <T> implements QueueInterface<T> {

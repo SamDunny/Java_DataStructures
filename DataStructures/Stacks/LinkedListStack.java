@@ -1,3 +1,5 @@
+package DataStructures.Stacks;
+
 // by Sam Dunny
 public class LinkedListStack<T> implements StackInterface<T> {
 

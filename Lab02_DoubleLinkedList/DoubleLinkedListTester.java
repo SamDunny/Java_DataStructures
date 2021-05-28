@@ -1,3 +1,5 @@
+package Lab02_DoubleLinkedList;
+
 /*
  * Written by JJ Shepherd
  */

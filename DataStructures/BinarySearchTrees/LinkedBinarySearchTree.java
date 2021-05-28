@@ -1,3 +1,5 @@
+package DataStructures.BinarySearchTrees;
+
 // by Sam Dunny
 
 // extending so we can compare types in the tree (must implement comparable interface)

@@ -1,3 +1,5 @@
+package DataStructures.LinkedLists;
+
 // by Sam Dunny
 public class IntLinkedListTester {
 

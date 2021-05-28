@@ -1,3 +1,5 @@
+package LabEX_DarkMaze;
+
 // by Sam Dunny
 
 import java.util.Random;

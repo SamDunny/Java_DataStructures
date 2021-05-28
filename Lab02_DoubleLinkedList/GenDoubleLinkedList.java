@@ -1,3 +1,5 @@
+package Lab02_DoubleLinkedList;
+
 // by Sam Dunny
 
 /* This implementation sacrifices speed(-) for memory(-):

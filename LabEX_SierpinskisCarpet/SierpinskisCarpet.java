@@ -1,3 +1,5 @@
+package LabEX_SierpinskisCarpet;
+
 // by Sam Dunny
 
 import java.awt.*;

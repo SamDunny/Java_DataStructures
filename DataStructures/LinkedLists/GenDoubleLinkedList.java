@@ -1,3 +1,5 @@
+package DataStructures.LinkedLists;
+
 // by Sam Dunny
 
 /* This implementation sacrifices speed(-) for memory(-):

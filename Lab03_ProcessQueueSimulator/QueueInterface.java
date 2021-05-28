@@ -1,3 +1,5 @@
+package Lab03_ProcessQueueSimulator;
+
 // by Sam Dunny
 
 /* 	(1) interfaces cannot be constructed or instantiated,

@@ -1,3 +1,5 @@
+package Lab01_SortingWords;
+
 // by Sam Dunny
 
 public class WordHelper {

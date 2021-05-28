@@ -1,3 +1,5 @@
+package Lab01_SortingWords;
+
 /*
  * Written by JJ Shepherd
  */

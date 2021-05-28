@@ -1,3 +1,5 @@
+package Algorithms;
+
 // by Sam Dunny
 
 public class SortAlgorithms {

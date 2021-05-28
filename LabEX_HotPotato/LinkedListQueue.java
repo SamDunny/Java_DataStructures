@@ -1,3 +1,5 @@
+package LabEX_HotPotato;
+
 // by Sam Dunny
 
 public class LinkedListQueue <T> implements QueueInterface<T> {

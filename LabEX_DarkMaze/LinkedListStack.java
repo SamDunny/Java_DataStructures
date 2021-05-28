@@ -1,3 +1,5 @@
+package LabEX_DarkMaze;
+
 // by Sam Dunny
 public class LinkedListStack<T> implements StackInterface<T> {
 
