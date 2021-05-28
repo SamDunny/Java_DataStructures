@@ -1,3 +1,4 @@
+package DataStructures.BinarySearchTrees;
 
 public class LinkedBSTTester {
 

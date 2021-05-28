@@ -1,3 +1,5 @@
+package Lab03_ProcessQueueSimulator;
+
 // by Sam Dunny
 
 public class LinkedListQueue <T> implements QueueInterface<T> {
