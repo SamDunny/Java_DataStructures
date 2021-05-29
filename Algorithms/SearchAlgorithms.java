@@ -1,7 +1,5 @@
 package Algorithms;
 
-import java.lang.reflect.Array;
-
 // by Sam Dunny
 
 public class SearchAlgorithms {

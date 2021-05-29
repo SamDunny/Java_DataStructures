@@ -4,7 +4,6 @@ package LabEX_SierpinskisCarpet;
 
 import java.awt.*;
 import javax.swing.*;
-import java.util.*;
 
 // extending Canvas in order to create new Canvas Object sp
 public class SierpinskisCarpet extends Canvas {
